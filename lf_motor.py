@@ -36,7 +36,7 @@ def callback(data):
 
     else:
         print ("FORWARD")
-        GPIO.output(18, GPIO.LOW)
+        GPIO.output(18, GPIO.HIGH)
         GPIO.output(17, GPIO.LOW)
         GPIO.output(27,GPIO.HIGH)
         GPIO.output(22,GPIO.LOW)        
